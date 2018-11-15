@@ -1,0 +1,41 @@
+@charset "UTF-8";
+//@font-face {
+  //font-family: 'MyriadPro';
+  //src: local("css/fonts/MyriadPro-Regular"), url("fonts/MyriadPro-Regular.otf") format("opentype");
+  //font-weight: 400;
+  //font-style: normal;
+//}
+@font-face {
+  font-family: 'Catamaran-Medium';
+  src: local("css/fonts/Catamaran-Medium"), url("fonts/Catamaran-Medium.ttf") format("opentype");
+}
+@font-face {
+  font-family: 'Catamaran-Light';
+  src: local("css/fonts/Catamaran-Light"), url("fonts/Catamaran-Light.ttf") format("opentype");
+}
+@font-face {
+  font-family: 'Catamaran-Regular';
+  src: local("css/fonts/Catamaran-Regular"), url("fonts/Catamaran-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: 'Catamaran-Black';
+  src: local("css/fonts/Catamaran-Black"), url("fonts/Catamaran-Black.ttf") format("opentype");
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family:Catamaran-Regular;
+  font-size: 16px;
+  line-height: 1;
+  height: 100%;
+}

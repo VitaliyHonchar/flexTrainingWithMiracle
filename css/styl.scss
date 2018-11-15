@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@import "_settings.";
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  align-items:center;
+  background-color: rgba(111,111,111, .5);
+    .full_content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    max-width: 1282px;
+    width: 100%;
+    background-color: #fff;
+      header{
+        min-width: 1282px;
+        min-height: 669px;
+        height: 100%;
+        background-image: url("../img/header_back.png");
+        background-color: rgba(0, 233, 246, .7);
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:center;
+        
+          .left_content{
+                display: flex;
+                flex-direction: column;
+                flex-basis: 40%;
+                justify-content:center;
+                align-items:center;
+            .under_logo_text{
+            max-height: 88px;
+            padding-top: 40px;
+            max-width: 331px;
+            width: 100%;
+            height: 100%;
+            color: #333333;
+            font-family: Catamaran-Regular;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 54px;
+            letter-spacing: 3.6px;
+            white-space: pre;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+          }
+        }
+              .form{
+                  display: flex;
+                  flex-wrap:wrap;
+                  max-height: 422px;
+                  height: 100%;
+                  max-width: 377px;
+                  width: 100%;
+                  position: relative;
+                  box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+                  background-color: #333333;
+                  opacity: 0.9; 
+                  input{
+                    max-width: 337px;
+                    width: 100%;
+                    min-height: 40px;
+                    height: 100%;
+                    margin: 10px auto;
+                  }
+                  .active{
+                        height: 60px;
+                        max-width: 188.5px;
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                        background-color:#333333;
+                        opacity: 0.9;
+                          }
+                  button{
+                    height: 60px;
+                    max-width: 188.5px;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #fff;
+                    opacity: .7;
+                        
+                      &:hover{
+                        background-color: cyan;
+                      }
+
+                  }
+                  .text_form{
+                    width: 317px;
+                    height: 40px;
+                    color: #ffffff;
+                    font-family: Catamaran-Light;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    letter-spacing: 1.6px;
+                    margin: 0 auto;
+                  }
+                  .register{
+                  max-width: 347px;
+                  width: 100%;
+                  height: 40px;
+                  max-height: 40px;
+                  background-color: #ff6600;
+                  color: #333333;
+                  font-family: "Catamaran-Black";
+                  font-size: 30px;
+                  font-weight: 400;
+                  line-height: 36px;
+                  letter-spacing: 3px;
+                  margin: 10px auto;
+                  opacity: 1;
+                                    }
+              }
+              .form_hide{
+                    display: none;
+                    
+
+              }
+              .form_lost{
+                    display: none;
+
+              }
+              .active_form{
+                display: flex;
+                
+              }
+                     }
+          
+    .content{
+      overflow: hidden;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      .text_container{
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .article_container{
+        height: 320px;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .small_article{
+          flex:1;
+          overflow: hidden;
+          text-align: center;
+          .tittle{
+            color: #00a8b2;
+            font-family: "Catamara-Black";
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1.8px;
+            overflow: hidden;
+          }
+          .description{
+            overflow: hidden;
+            font-family: "Catamaran-Medium";
+            font-weight: 300;
+            letter-spacing: 1.6px;
+            color: #333333;
+          }
+        }
+      
+
+      }
+      .big_text{
+        color: #00a8b2;
+        font-family: "Catamaran-Black";
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 3px;
+        width: 100%;
+        text-align: center;
+        margin-top:72px;
+        margin-bottom: 15px;
+        padding: 0;
+        height: 31px;
+      }
+      #no_margin{
+        margin-top: 10px;
+      }
+      .description_text{
+        height: 40px;
+        width: 764px;
+
+        .small_text{
+          color: #333333;
+          font-family: Catamaran-Light;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+          letter-spacing: 1.6px;
+        }
+      }
+    }
+                  }
+        
+footer{
+  width: 1282px;
+  height: 121px;
+  background-color: #333333;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  padding-left: 55px;
+    .logo_small{
+      flex:4;
+    }
+    .we_info{
+      width: 190px;
+      color: #ffffff;
+      font-family: Catamaran-Regular;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 36px;
+      letter-spacing: 1.6px;
+      flex:1.2;
+      text-align: center;
+      padding-right: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      .line {
+          width: 45px;
+          height: 5px;
+          margin: 0 5px;
+          background-color: #ffffff;
+          border-radius: 4px;
+            }
+    }
+}
+}
